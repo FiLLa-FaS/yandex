@@ -1,0 +1,21 @@
+.places__article {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-template-rows: auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 60px;
+    margin-bottom: 72px;
+}
+
+.places__article:last-child {
+    margin-bottom: 102px;
+}
+@media screen and (max-width: 375px) {
+    .places__article {
+        grid-template-columns: repeat(1, 4fr);
+        margin-bottom: 48px;
+    }
+    .places__article:last-child {
+        margin-bottom: 64px;
+    }
+}

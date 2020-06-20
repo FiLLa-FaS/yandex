@@ -1,0 +1,13 @@
+.video__details {
+    position: absolute;
+    width: auto;
+    max-width: 322px;
+    transform: translate(30px, -166px);
+}
+
+@media screen and (max-width: 768px) {
+    .video__details{
+        max-width: 300px;
+        transform: translate(24px, -94px);
+    }
+}

@@ -1,0 +1,10 @@
+.places__url {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+@media screen and (max-width: 375px) {
+    .places__url {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.video__item {
+    position: relative;
+}
+.video__item:before {
+    content: '';
+    background-image: url('/image/icon_play.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translate(24px, 24px);
+    width: 41px;
+    height: 41px;
+    z-index: 1;
+}

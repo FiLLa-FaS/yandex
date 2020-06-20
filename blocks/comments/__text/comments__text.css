@@ -1,0 +1,11 @@
+.comments__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+@media screen and (max-width: 768px) {
+    .comments__text {
+        order: 2;
+    }
+}
